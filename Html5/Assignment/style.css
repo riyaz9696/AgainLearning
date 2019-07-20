@@ -1,0 +1,146 @@
+
+/*header (navigation start here....)*/
+ul{  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+  
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+li a:hover{
+  background: red;
+}
+/*Header navigation ends here...*/
+section{
+  display: inline-block;;
+}
+p{
+  font-size: 20px;
+}
+/*images settings start here...*/
+.firstimage{
+  float: right;
+  width: 20%;
+}
+.secondimage{
+  float: left;
+  width: 20%;
+}
+.thirdimage{
+  float: right;
+  width: 20%;
+}
+.fourthimage{
+  float: left;
+  width: 20%;
+}
+/*images settings start here...*/
+/*footer start here...*/
+.footer{
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: blue;
+  position: fixed;
+ }
+ /* footer ends here...*/
+
+/* home page css ends here ....*/
+
+ /* about page css start here*/
+
+.abouthead{
+  text-align: center;
+}
+.aboutpara{
+  text-align: left;
+}
+.naturaleatsimage{
+  float: right;
+}
+/*.naturaldoctor{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+
+}*/
+.adminimage{
+  display: block;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 20px;
+}
+
+
+ /*Events start here....*/
+
+.eventheading{
+  text-align: center;
+  font-style: italic;
+}
+.decoration{
+  text-align: center;
+  
+}
+.decoration{
+float: left;
+width: 20%;
+}
+.decorationjungle{
+float: right;
+width: 20%;
+}
+.liondecoration{
+  width: 20%;
+  float: left;
+}
+
+  /*Events ends here....*/
+
+  /*Menu list start here...*/
+  .breakfastmenulist{
+     text-align: center;
+     font-style: italic;
+
+  }
+.lunchmenulist{
+     text-align: center;
+     font-style: italic;
+  }
+.dinnerfastmenulist{
+     text-align: center;
+     font-style: italic;
+  }
+  .boxmodelbreakfastmenu{
+    padding: 70px;
+    margin: 80px;
+    border:2px solid black;
+    width: 300px;
+    display: inline-block;
+
+  }
+
+
+
+  /*Menu list ends here...*/
+/*Menu Rate list Start here*/
+  .menuRatelist{
+    text-align: center;
+    font-style: italic;
+  }
+
+  /*Menu Rate list Ends here*/

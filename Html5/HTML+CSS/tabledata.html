@@ -2,16 +2,22 @@
 <html>
 <head>
   <title>Table for nth value rows</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style type="text/css">
   table{
     font-family: verdana;
     border-collapse: collapse;
     width: 100%;
-    border-top: 2px solid black;
+    border:2px #ddd;
   }
   th ,td{
-    text-align: center;
-    padding-top: 8px;
+    text-align: left;
+    padding-top: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    color: white;
+    border-bottom: 1px solid #ddd;
   }
     tr:nth-child(even){
       background-color: blue;
@@ -19,9 +25,22 @@
     tr:nth-child(odd){
       background-color: yellow;
     }
+    tr:hover{
+      background-color: #403e3eba;
+    }
+   @media only screen and (max-width: 768){
+    /* For mobile phones */
+    [tr*="td"]{
+      width: 100%;
+    }
+   }
+  
   </style>
 </head>
 <body>
+<form>
+<fieldset>
+<legend>Table Information</legend>
 <table>
   <tr>
     <th>City</th>
@@ -59,5 +78,7 @@
     <td>India</td>
   </tr>
 </table>
+</fieldset>
+</form>
 </body>
 </html>
