@@ -1,4 +1,6 @@
-
+body{
+  background: #f2f4f7;
+}
 /*header (navigation start here....)*/
 ul{  
   list-style-type: none;
@@ -6,6 +8,9 @@ ul{
   padding: 0;
   overflow: hidden;
   background: #333;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
   
 }
 li{
@@ -53,12 +58,15 @@ p{
   width: 100%;
   background: blue;
   position: fixed;
- }
- /* footer ends here...*/
+}
+.footerset{
+  text-align: center;
+}
+/* footer ends here...*/
 
 /* home page css ends here ....*/
 
- /* about page css start here*/
+/* about page css start here*/
 
 .abouthead{
   text-align: center;
@@ -75,72 +83,250 @@ p{
   margin-right: auto;
   width: 15%;
 
-}*/
-.adminimage{
-  display: block;
-  float: right;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  border-radius: 20px;
-}
+  }*/
+  .adminimage{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 20px;
+  }
 
 
- /*Events start here....*/
+  /*Events start here....*/
 
-.eventheading{
-  text-align: center;
-  font-style: italic;
-}
-.decoration{
-  text-align: center;
-  
-}
-.decoration{
-float: left;
-width: 20%;
-}
-.decorationjungle{
-float: right;
-width: 20%;
-}
-.liondecoration{
-  width: 20%;
-  float: left;
-}
+  .eventheading{
+    text-align: center;
+    font-style: italic;
+  }
+  .decoration{
+    text-align: center;
+
+  }
+  .decoration{
+    float: left;
+    width: 20%;
+  }
+  .decorationjungle{
+    float: right;
+    width: 20%;
+  }
+  .liondecoration{
+    width: 20%;
+    float: left;
+  }
 
   /*Events ends here....*/
 
   /*Menu list start here...*/
   .breakfastmenulist{
-     text-align: center;
-     font-style: italic;
+   text-align: center;     
+   font-style: italic;
+   background: #d46511;
+   color: white;
+   border-radius: 100px;
+ }
+ .lunchmenulist{
+   text-align: center;
+   font-style: italic;
+   background: #b54633;
+   border-radius: 100px;
+ }
+ .dinnerfastmenulist{
+   text-align: center;
+   font-style: italic;
+   background: #41633b;
+   color: white;
+   border-radius: 100px;
+ }
+ .boxmodelbreakfastmenu{
+  padding: 70px;
+  margin: 80px;
+  border-top: 10px solid black;
+  border-bottom: 4px solid red;
+  width: 300px;
+  height: 100px;
+  display: inline-block;
+  background: #807d6a;
+  height: 116px;
+  border-radius: 26px;
+  border-left: 3px solid blue;
+  border-right: 1px solid green;
+  box-shadow: 10px 10px 5px grey;
 
-  }
-.lunchmenulist{
-     text-align: center;
-     font-style: italic;
-  }
-.dinnerfastmenulist{
-     text-align: center;
-     font-style: italic;
-  }
-  .boxmodelbreakfastmenu{
-    padding: 70px;
-    margin: 80px;
-    border:2px solid black;
-    width: 300px;
-    display: inline-block;
 
-  }
+}
 
+.details{
+  float: left;
+}
 
+.fieldbackbreakfast{
+  background: #668a6f;
+  border-top: 10px solid black;
+  border-bottom: 4px solid red;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-radius: 100px;
+}
+.fieldbacklunch{
+  background: #b3b1a8;
+  color: white;
+  border-top: 10px solid black;
+  border-bottom: 4px solid red;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-radius: 100px;
+}
+.fieldbackdinner{
+  background: #baac82;
+  border-top: 10px solid black;
+  border-bottom: 4px solid red;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-radius: 100px;
+}
 
-  /*Menu list ends here...*/
+/*Menu list ends here...*/
 /*Menu Rate list Start here*/
-  .menuRatelist{
-    text-align: center;
-    font-style: italic;
-  }
+.menulist{
+  background: #242219;
+  border-top: 10px solid black;
+  border-bottom: 4px solid red;
+  border-radius: 100px;
+}
+.menuRatelist{
+  text-align: center;
+  font-style: italic;
+  background: #8a887f;
+  border-top: 2px solid black;
+  border-bottom: 2px solid green;
+}
+/*images in box model start here..*/
 
+/*beakfast box model images start*/
+.beggieimage{
+  width: 70%;    
+  float: left;
+
+}
+.bowlattaimage{
+  width: 30%;   
+  float: right;
+}
+.burrautimage{ 
+  width: 40%;
+  float: left;
+}
+.fruitimage{
+  width: 30%;   
+  float: right;
+}
+.paleoimage{
+  width: 40%;
+  float: left;
+}
+.sunnyeggimage{
+  width: 50%;   
+  float: right;
+}
+/*breakfast box model images end*/
+
+/*lunch images classess start here...*/
+.combinationsimage{
+  width: 40%;
+  float: left;
+}
+.greekimage{
+ width: 45%;   
+ float: right;
+}
+.palakpaneerimage{
+  width: 40%;
+  float: left;
+}
+.sesameimage{
+  width: 45%;   
+  float: right;
+}
+.southimage{
+  width: 40%;
+  float: left;
+}
+.tofuimage{
+ width: 50%;   
+ float: right;
+}
+/*lunch images classess ends here...*/
+
+/*dinner images classess start here...*/
+.egyptchickenimage{
+  width: 40%;
+  float: left;
+}
+.frenchchickenimage{
+ width: 50%;   
+ float: right;
+}
+.greekchickenimage{
+  width: 40%;
+  float: left;
+}
+.melt-in-mouthimage{
+  width: 40%;   
+  float: right;
+}
+.peanutsouceimage{
+  width: 40%;
+  float: left;
+}
+.souceschickenimage{
+ width: 40%;   
+ float: right;
+}
+/*dinner images classess ends here...*/
+
+/*common border radius start here...*/
+.border{
+  border-radius: 100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid red;
+  border-left: 3px solid blue;
+}
+/*common border radius ends here...*/
+
+.spaceleftimages{
+  padding-left: 20px;
+  color: white;
+}
+
+/*images in box model ends here*/
+.tableset {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 8px solid black;
+  margin-top: 10px;
+ border-bottom: 2px solid red;
+ border-left: 2px solid black;
+ border-right: 2px solid black;
+}
+.tableset td, .tableset th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tableset tr:nth-child(even){
+  background: blue;
+}
+.tableset tr:hover{
+  background: #524c32;
+}
+.tableset th{
+ text-align: left;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ background-color: #4CAF50;
+
+}
   /*Menu Rate list Ends here*/
