@@ -1,0 +1,107 @@
+/*navbar setting start here*/
+.navset{  
+  background: black;
+}
+/*.colorset{
+  background: #0e0e0e;
+}*/
+.lifecaretext{
+  font-family: font-family: "Times New Roman", Times, red-serif;
+  font-style: oblique;  
+}
+
+.logotext{
+  color: white;
+  
+}
+/*.navbar-collapse{
+  margin-left: 10%;
+  border-bottom: 2px solid red;
+  margin-right: 9%;
+
+}*/
+/*navbar setting ends here*/
+
+
+
+/*navigationbar text start here...*/
+.nav-text{
+  color: white;
+
+}
+
+/*navigationbar text end here...*/
+
+/*footer start here...*/
+.footerset{
+  background-color: black;
+}
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;    
+  color: white;
+  text-align: center;
+}
+
+/*home body section start here...*/
+.bodysection{
+ background-image: url("images/bismarck-air-ambulance.jpg");
+ width: 10%;
+ height: 30%;
+
+}
+.card{
+  width: 30rem;
+}
+.card-body{
+  background: #274379;
+  color: white;
+}
+
+
+.alert{
+  width: 100%;  
+  color: white; 
+}
+.welcomealert{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+/*Ambulance Services cards start here... */
+.servicescard{
+  width: 5rem;
+}
+.learnmore{
+  color: #ac1a1e;
+}
+/*Ambulance Services cards ends here... */
+
+/*AboutUs Home Page Division start here...*/
+.aboutUshome{
+  background: #81adbf;
+}
+.selfnurse{
+  width: 106%;
+
+}
+.aboutcolor{
+  color:#ac1a1e; 
+}
+.quickfact{
+  color: #ac1a1e;
+}
+.ambulanceimg{
+  float: right;
+}
+/*About Us home page division ends here....*/
+
+
+
+
+
+
+/*home body section ends here...*/

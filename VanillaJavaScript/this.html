@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>This In JS</title>
+</head>
+<body>
+<script type="text/javascript">
+  var myVar=200;
+  function thiskeymehtod(){
+    var myVar=100;
+    alert(myVar);
+    alert(this.myVar);
+  }
+    thiskeymehtod();
+
+  var obj=new thiskeymehtod();
+  alert(obj.myVar);
+</script>
+</body>
+</html>

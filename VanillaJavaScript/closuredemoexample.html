@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Closuredemo example</title>
+</head>
+<body>
+<script type="text/javascript">
+  function domath(){
+    var a=5;
+    var b=6;
+    function multiply(){
+      var result=a*b;
+      return result;
+    }
+    return multiply();
+  }
+
+  var resultset = domath();
+  console.log("Result is:",resultset);
+</script>
+</body>
+</html>

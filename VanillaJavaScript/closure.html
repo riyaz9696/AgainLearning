@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Closure Learning</title>
+</head>
+<body>
+<script type="text/javascript">
+  function init(){
+    var name ="Riaz";     //name is the local variable created by init.
+    function display(){  // display() is the inner function , a closure 
+      alert(name);       // use variable declared in the parent function.
+    }
+    display();
+  }
+  init();
+</script>
+</body>
+</html>

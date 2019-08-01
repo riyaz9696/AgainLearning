@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CallBack Function in JS</title>
+</head>
+<body>
+<script type="text/javascript">
+  var author ="FF";
+  function namedCallback(param){
+     alert("namedCallback() called by param" +param);
+  }
+    function testfunction(callback){
+      callback();
+    }
+    testfunction(namedCallback(author));
+</script>
+</body>
+</html>
+

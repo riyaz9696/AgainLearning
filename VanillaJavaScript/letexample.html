@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Let Example</title>
+</head>
+<body>
+<script type="text/javascript">
+  function localvar(){
+    let my=2;
+    
+    if (my) {
+      let my="I am different";
+      console.log("Nested local ", my)
+    }
+    console.log("local scope" ,my)
+  }
+  localvar();
+</script>
+</body>
+</html>

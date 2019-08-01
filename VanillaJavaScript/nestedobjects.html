@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Objects in js</title>
+</head>
+<body>
+<p id="p1"></p>
+<script type="text/javascript">
+  var person = {
+   firstname:"riaz",
+   lastname:"ali",
+   address:{
+    id:"1",
+    country:"India"
+   }
+  };
+
+document.getElementById("p1").innerHTML=person.address.country;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Confirm AlertBox with JS</title>
+  <script type="text/javascript" scr="javascript.js"> 
+  var userPreference; 
+  if (confirm("Do you want to save ?")==true) {
+    userPreference="Data saved successfully";
+  }else {
+    userPreference="Data Canceled";
+  }
+  document.getElementById("msg").innerHTML=userPreference;
+</script>
+</head>
+<body>
+<h2>Demo: confirm()</h2>
+<p id="msg"></p>
+</body>
+</html>
